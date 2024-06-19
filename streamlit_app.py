@@ -147,7 +147,7 @@ def sub_app_1():
                 webbrowser.open_new_tab(url)
                 # st.write(f"Redirigiendo a {url}...")
         
-        st.image("IAimage.jpg", use_column_width=True)
+        st.image(https://th.bing.com/th/id/OIP.wx-VAVMGHeK8UdgWYpzecgHaEU?w=282&h=180&c=7&r=0&o=5&pid=1.7, use_column_width=True)
 
 def sub_app_2():
     st.title("Sub-Aplicación 2")
