@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-import textos
 import webbrowser
 
 
@@ -106,12 +105,12 @@ def sub_app_1():
 
 
     botones_y_textos = {
-        "Clasificación de Riesgos": textos.textos("Clasificación de Riesgos"),
-        "Nuevas Instituciones y Órganos": textos.textos("Nuevas Instituciones y Órganos"),
-        "Evaluación de la conformidad": textos.textos("Evaluación de la conformidad"),
-        "Proceso Legislativo y Aplicación": textos.textos("Proceso Legislativo y Aplicación"),
-        "Reacciones y Críticas": textos.textos("Reacciones y Críticas"),
-        "Conclusiones": textos.textos("Conclusiones")
+        "Clasificación de Riesgos": textos("Clasificación de Riesgos"),
+        "Nuevas Instituciones y Órganos": textos("Nuevas Instituciones y Órganos"),
+        "Evaluación de la conformidad": textos("Evaluación de la conformidad"),
+        "Proceso Legislativo y Aplicación": textos("Proceso Legislativo y Aplicación"),
+        "Reacciones y Críticas": textos("Reacciones y Críticas"),
+        "Conclusiones": textos("Conclusiones")
     }
 
     # Inicializar una variable para guardar el texto seleccionado
